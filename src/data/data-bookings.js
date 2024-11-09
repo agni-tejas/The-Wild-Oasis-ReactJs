@@ -10,8 +10,8 @@ export const bookings = [
   // CABIN 001
   {
     created_at: fromToday(-20, true),
-    startDate: fromToday(0),
-    endDate: fromToday(7),
+    startDate: fromToday(1),
+    endDate: fromToday(8),
     cabinId: 1,
     guestId: 2,
     hasBreakfast: true,

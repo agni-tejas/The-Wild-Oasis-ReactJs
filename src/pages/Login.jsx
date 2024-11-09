@@ -13,10 +13,17 @@ const LoginLayout = styled.main`
   background-color: var(--color-grey-50);
 `;
 
+const TempH2 = styled.h2`
+  text-align: center;
+  background-color: var(--color-grey-50);
+`;
+
 function Login() {
   return (
     <LoginLayout>
       <Logo />
+      <TempH2>email:agni@gmail.com pass:qwertyasd</TempH2>
+
       <Heading as="h4">Log in to your account</Heading>
       <LoginForm />
     </LoginLayout>
